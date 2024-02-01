@@ -8,40 +8,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#ourpackage">Our Package</a></li>
-                <li><a href="#callus">Call Us</a></li>
-            </ul>
-            <!-- <tr>
-                <th><a href="#home">Home</a></th>
-                <th><a href="#ourpackage">Our Package</a></th>
-                <th><a href="#callus">Call Us</a></th>
-            </tr> -->
+            <div class="nav-container">
+                <div class="title"><a href="#">moqups</a></div>
+                <div class="nav-list">
+                    <div class="list"><a href="#home">Home</a></div>
+                    <div class="list"><a href="#ourpackage">Our Package</a></div>
+                    <div class="list"><a href="#callus">Call Us</a></div>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <div class="jumbotron" id="home">
-            <div class="slide">
-                <h1 class="active">Top Rated E-Groceries Shop in Indonesian</h1>
-                <p class="active">Every Day with best ingredients</p>
+        <div class="slideshow-container" id="home">
+            <div class="mySlides fade">
+                <img src="assets/pinterest-veg1.jpeg">
+                <div class="text">
+                    <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+                    <p>Every Day with best ingredients</p>
+                </div>
             </div>
-        </div>
-        <!-- <div class="slideshow-container" id="home">
-            <div class="slide fade">
-                <div>Welcome to E-Groceries Shop</div>
-                <div>Best Choices</div>
+            <div class="mySlides fade">
+                <img src="assets/pinterest-veg2.jpeg">
+                <div class="text">
+                    <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+                    <p>Every Day with best ingredients</p>
+                </div>
             </div>
-            <div class="slide fade">
-                <div>Top Rated E-Groceries Shop in Indonesian</div>
-                <div>Every Day with best ingredients</div>
+            <div class="mySlides fade">
+                <img src="assets/pinterest-veg3.jpeg">
+                <div class="text">
+                    <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+                    <p>Every Day with best ingredients</p>
+                </div>
             </div>
         </div>
         <br>
@@ -49,7 +53,8 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
             <span class="dot"></span> 
-        </div> -->
+        </div>
+
         <div class="content1">
             <div class="content1-1">
                 <div id="highlight1" class="card">
@@ -89,6 +94,7 @@
                         <select id="interested" name="interested">
                             <option value="vegetables">Vegetables</option>
                             <option value="Fruits">Fruits</option>
+                            <option value="Kitchenset">Kitchen Set</option>
                         </select><br>
                         <input type="submit" value="Submit">
                     </form>
@@ -96,6 +102,7 @@
                 </div>
             </aside>
         </div>
+
         <div class="package-title">
             <h1 id="ourpackage">Our Package</h1>
         </div>
@@ -125,17 +132,18 @@
                 <p>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapurmu</p>
               </div>
         </div>
+
         <div class="content3">
             <h1>Your Closing Argument Headline</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error quia ea exercitationem officia labore earum accusantium dolorum ducimus deserunt. Numquam vero odio suscipit? Velit amet corrupti quisquam aut? Saepe.</p>
-            <div class="button">Call to Action</div>
+            <div class="button"><a href="#callus">Call Us</a></div>
         </div>
     
     </main>
     
     <footer>
         <p>Terms of Service | Privacy Policy</p>
-        <p>&#169; 2019, n</p>
+        <p>&#169; 2019 Moqups</p>
     </footer>
 
 </body>
