@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: white;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/* nav tr {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+nav th {
+    list-style-type: none;
+} */
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    /* background-color: #EDF0F4;
+    color: #444;
+    overflow: hidden; */
+}
+
+/* .jumbotron h1 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.jumbotron h1.active {
+    opacity: 1;
+}
+
+.jumbotron p {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.jumbotron p.active {
+    opacity: 1;
+} */
+
+/* .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} */
+
+.content1 {
+    display: flex;
+    gap: 40px;
+    margin: 50px 80px;
+}
+
+#content1-1 {
+    flex: 5;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+
+    padding: 0px 30px 30px 30px;
+    margin-top: 20px;
+}
+
+.image-veg {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    margin: auto;
+}
+
+.highlight1-text {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+.image-profile {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    /* max-width: 100%;
+    height: auto; */
+}
+
+.point {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.profile-text {
+    margin: 0px 10px;
+}
+
+aside {
+    flex: 1;
+}
+
+.contact {
+    background-color: #EDF0F4;
+    padding: 20px 25px 25px 25px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #29323D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.package-title h1 {
+    text-align: center;
+    background-color: #EDF0F4;
+    /* margin, padding : top-bottom right-left */
+    margin: 10px 0px;
+    padding: 70px 0px;
+
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item {
+    /* background-color: #f2f2f2; */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.item h2 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.item p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content3 {
+    text-align: center;
+    border-top: 2px solid #EDF0F4;
+    border-bottom: 2px solid #EDF0F4;
+    padding: 80px;
+}
+
+.button {
+    background-color: #555555;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
